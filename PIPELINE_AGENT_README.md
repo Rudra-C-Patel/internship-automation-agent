@@ -21,13 +21,13 @@ Built to explore distributed systems concepts including parallel data ingestion,
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    PIPELINE OVERVIEW                         │
+│                    PIPELINE OVERVIEW                        │
 │                                                             │
 │  Phase 1: Collection (07:00 AM)                             │
 │  ┌─────────────────────────────────────────────────┐        │
 │  │  Source 1 ──┐                                   │        │
 │  │  Source 2 ──┤                                   │        │
-│  │  Source 3 ──┼──▶ Normalize ──▶ Deduplicate      │        │
+│  │  Source 3 ──┼──▶ Normalize ──▶ Deduplicate      │       │
 │  │  Source 4 ──┤               ──▶ LLM Rank        │        │
 │  │  Source 5 ──┤               ──▶ Store JSON      │        │
 │  │  Source 6 ──┤               ──▶ Alert via Bot   │        │
