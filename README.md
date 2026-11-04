@@ -1,18 +1,20 @@
 # Distributed Data Pipeline and Web Scraping Agent
 
-> Autonomous multi-source data collection, normalization, LLM ranking, and browser automation. Ran on self-hosted Ubuntu infrastructure from early 2026 until the host was decommissioned in June 2026.
+> **The original source code was lost in June 2026, when the only machine holding it was decommissioned. A rebuild is planned.** This repo is the architecture record of the system as it ran. It is intentionally not runnable right now; nothing here is broken.
+
+Autonomous multi-source data collection, normalization, LLM ranking, and browser automation. Ran on self-hosted Ubuntu infrastructure from early 2026 until the host was decommissioned in June 2026.
 
 [![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)](https://playwright.dev)
 [![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat&logo=nvidia&logoColor=white)](https://build.nvidia.com)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu_24.04-E95420?style=flat&logo=ubuntu&logoColor=white)](https://ubuntu.com)
 
-> **Status: retired, and this repository holds the design, not the source.**
+> **Status: source lost, rebuild planned. This repository holds the design, not the source.**
 > The pipeline ran as systemd services on a self-hosted mini PC. That machine was
 > decommissioned on 2026-06-22 and the working tree lived only on it, so the
 > implementation is gone. What follows is an accurate architecture record of a
-> system that ran, written so it could be rebuilt. It is not a working project you
-> can clone and run.
+> system that ran, written so it can be rebuilt. Until that rebuild lands, it is
+> not a project you can clone and run.
 
 ---
 
